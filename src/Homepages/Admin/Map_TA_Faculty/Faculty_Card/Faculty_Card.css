@@ -1,0 +1,23 @@
+.container
+{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid var(--bits_dark_blue);
+    border-radius : 1rem;
+    padding: 0.6rem;
+}
+.container:hover
+{
+    border: 1px solid var(--bits_light_blue);
+    cursor: pointer;
+}
+.image
+{
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}

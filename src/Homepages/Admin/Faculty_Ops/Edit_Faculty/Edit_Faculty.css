@@ -1,0 +1,54 @@
+.search_bar
+{
+    width: 50%;
+    font-weight: 450;
+    font-size: small;
+    border-radius: 0.5rem;
+    padding: 1.5%;
+    padding-left: 2%;
+    border: 1.2px solid black;
+}
+.search_bar:hover
+{
+    border: 1.2px solid var(--neon_blue);
+
+}
+
+.item_box
+{
+    border-radius : 1rem;
+    padding: 0.5rem;
+    margin: 1%;
+    width: 98%;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.export_btn, .small_btn
+{
+  width: max-content;
+  display: inline-block;
+  margin-right: 1%;
+  color: white;
+  background-color: black;
+  padding-left: 2rem; 
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.4rem; /* rounded buttons */
+  cursor: pointer;
+  font-size: 1rem;
+}
+.small_btn
+{
+    font-size:0.8rem ;
+}
+.export_btn:hover, .small_btn:hover
+{
+  background-color: var(--neon_blue);
+  color: white;     
+}
+
+.popup-content {
+  border-radius: 1rem;
+}

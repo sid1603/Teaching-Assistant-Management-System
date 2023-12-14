@@ -1,0 +1,210 @@
+*
+{
+    font-family:  'Poppins', sans-serif;
+}
+
+.bg_image
+{
+    background-image: url('./Assets/BITS_Campus_blurred.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #f5f5f5;
+    overflow:auto;
+    background-repeat: no-repeat;
+    width:100%;
+   
+}
+
+.logo
+{
+    float: none;
+    margin: 0 auto;
+    display: block;
+    width: 12.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.2rem;
+    filter: drop-shadow( 0rem 0rem 1rem black);
+}
+.logo:hover
+{
+    filter: drop-shadow( 0rem 0rem 1rem white );
+    cursor:default;
+
+}
+
+.central_title
+{
+    float: none;
+    margin: 0 auto;
+    display: block;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    height : max-content;
+    width: max-content;
+    text-shadow: 0 0 1rem black;
+    align-items: center;
+    text-align: center;
+}
+
+.central_title:hover
+{
+    text-shadow: 0 0 1rem var(--neon_blue);
+    cursor:default;
+
+}
+
+
+.login_box
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    height: max-content;
+    width: 40rem;
+    border-radius: 1rem;
+    vertical-align: top;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    margin: auto;
+}
+
+.login_box label
+{
+    text-align:left ;
+    display: block;
+    padding-left: 5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.inputbar, .inputbar_large
+{
+    display: block;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    width: 90%;
+    padding: 0.5%;
+}
+.inputbar
+{
+   height: auto;
+}
+.inputbar:hover, .inputbar_large:hover
+{
+    border: 1px solid var(--neon_blue);
+}
+
+.btn
+{
+  width: max-content;
+  display: inline-block;
+  color: white;
+  background-color: black;
+  padding-left: 2rem; /* Left(0.75) and Right(1.25) Padding */
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.4rem; /* rounded buttons */
+  cursor: pointer;
+  font-size: 1rem;
+}
+.btn:hover
+{
+  background-color: var(--neon_blue);
+  color: white;     
+}
+
+a
+{
+    color: var(--neon_blue);
+}
+
+a:hover
+{
+    color: var(--bits_red);
+}
+
+.select_btn
+{
+  width: max-content;
+  display: inline-block;
+  color: var(--bits_yellow);
+  background-color: var(--bits_dark_blue);
+  padding-left: 2rem; 
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.select_btn:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.selected_btn
+{
+    width: max-content;
+    display: inline-block;
+    color: var(--bits_yellow);
+    padding-left: 2rem; 
+    padding-right: 2rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: var(--neon_blue);    
+}
+
+.ErrorMsg
+{
+    color: red;
+}
+
+.SuccessMsg
+{
+    color: green;
+}
+
+@media (max-width:700px)
+{
+    .logo
+    {
+        width: 10rem;
+    }
+    .login_box, a
+    {
+        width:75%;
+        height: auto;
+        font-size: 0.5rem;
+        margin: 0;
+    }
+    .btn
+    {
+        padding-left: 2rem;
+    }
+    .central_title
+    {
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+    .login_box input
+    {
+        width: 85%;
+        font-size: 0.5rem;
+    }
+    .login_box label
+    {
+        padding-left: 2rem;
+        padding-right: 0rem;
+        
+    }
+    .login-with-google-btn
+    {
+        width:12rem;
+        font-size: 0.8rem;
+    }
+}

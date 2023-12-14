@@ -1,0 +1,39 @@
+.ncbtn
+{
+  width: max-content;
+  display: inline-block;
+  color: white;
+  background-color: grey;
+  padding-left: 2rem; /* Left(0.75) and Right(1.25) Padding */
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.4rem; /* rounded buttons */
+  cursor: pointer;
+  font-size: 1rem;
+}
+.ncbtn:hover
+{
+  cursor: not-allowed;
+}
+
+.task_details_input, .task_details_input_large
+{
+    width: 60%;
+    font-weight: 450;
+    font-size: medium;
+    border-radius: 2rem;
+    padding: 0.75%;
+    padding-left: 1.5%;
+    border: 1px solid black;
+}
+.task_details_input_large
+{
+    padding-top: 1%;
+    border-radius: 1rem;
+}
+.details_input:hover
+{
+    border: 1px solid var(--neon_blue);
+
+}

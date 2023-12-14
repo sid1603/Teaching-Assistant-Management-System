@@ -1,0 +1,94 @@
+.logout_btn
+{
+  width: max-content;
+  display: inline-block;
+  color: black;
+  background-color: white;
+  position: absolute;
+  right:0.5%;
+  top:0.6rem;
+  padding-left: 2rem; /* Left(0.75) and Right(1.25) Padding */
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.4rem; /* rounded buttons */
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.logout_btn:hover
+{
+    background-color: var(--bits_light_blue);
+    color: var(--bits_dark_blue);     
+}
+
+
+.Name
+{
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.Name:hover
+{
+    text-shadow: 0 0 0.3rem var(--neon_blue);
+    color: white;
+    cursor:pointer;
+
+}
+
+.logo_mini
+{
+    height: 3.5rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.1rem;
+}
+.logo_mini:hover
+{
+    filter: drop-shadow( 0rem 0rem 0.07rem white );
+    cursor:pointer;
+
+}
+
+.Profile_Page_Button
+{
+    display: block;
+    position: absolute;
+    top:0.5rem;
+    right: 9rem;
+}
+
+.UserType
+{
+    display: block;
+    position: absolute;
+    color: var(--bits_light_blue);
+    top:0.8rem;
+    right: 13rem;
+    padding: 0.2rem;
+    border: 3px solid var(--bits_light_blue);
+    border-radius: 1rem;
+    cursor : default;
+    min-width: 3rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+
+
+.icon
+{
+    color: white;
+}
+.icon:hover
+{
+    color: var(--bits_light_blue);
+}
+
+.display_none
+{
+    display: none;
+}

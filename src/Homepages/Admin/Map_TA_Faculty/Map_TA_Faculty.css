@@ -1,0 +1,25 @@
+.faculties
+{
+    margin : 2%;
+    flex:1;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 33.5%;
+    grid-template-columns: repeat(4,22.5%);
+    grid-gap: 2.3%;
+    
+}
+
+.faculty_box
+{
+    border-radius : 1rem;
+    padding: 0.5rem;
+    margin: 1%;
+    width: 98%;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.Fac_details
+{
+    text-align: left;
+}

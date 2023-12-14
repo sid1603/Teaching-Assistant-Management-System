@@ -1,0 +1,37 @@
+version: "3"
+
+services:
+  db:
+    image: mongodb/mongodb-community-server:6.0.1-ubi8
+    volumes:
+      - ./init-db:/docker-entrypoint-initdb.d
+    container_name: db
+    hostname: db
+    ports:
+      - "27017:27017"
+    networks:
+      - shared_network
+
+  app:
+    build: .
+    container_name: app
+    image: app:latest
+    hostname: app
+    restart: on-failure
+    ports:
+      - "3000:3000"
+      - "9000:9000"
+    volumes:
+      - .:/tams/app
+    command: >
+      sh -c "npm start"
+    stdin_open: true
+    tty: true
+    depends_on:
+      - db
+    networks:
+      - shared_network
+
+networks:
+  shared_network:
+    driver: bridge

@@ -1,0 +1,67 @@
+header
+{
+    height: 20%;
+    background-color: black;
+    color:white
+}
+
+body
+{
+    background-image: url('../Assets/BITS_NAB_Blurred.jpg');
+    background-size: cover;
+    background-repeat: none;
+    overflow-x: hidden;
+    
+
+}
+
+h1,h2,p
+{
+    color: var(--bits_dark_blue);
+
+}
+p
+{
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.lander
+{
+    border-radius : 1rem;
+    padding: 2rem;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card, .big_card
+{
+    width: 25%;
+    display: flex;
+    float: left;
+    height: max-content;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid var(--bits_dark_blue);
+    border-radius : 1rem;
+    padding: 1rem;
+}
+
+.big_card
+{
+    width: 38%;
+
+}
+
+.card:hover
+{
+    border: 1px solid var(--bits_light_blue);
+    cursor: pointer;
+}

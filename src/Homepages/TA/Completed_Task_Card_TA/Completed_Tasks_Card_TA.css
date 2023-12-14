@@ -1,0 +1,48 @@
+.request_container
+{
+    height: max-content;
+    background-color: white;
+    border: 1px solid var(--bits_dark_blue);
+    border-radius : 1rem;
+    padding: 0.6rem;
+    margin-bottom: 2rem;
+}
+.request_container:hover
+{
+    border: 1px solid var(--bits_light_blue);
+}
+
+.not_started
+{
+    color: red;
+}
+
+.in_progress
+{
+    color: blue;
+}
+
+.complete
+{
+    color: green
+
+}
+
+.ncbtn
+{
+  width: max-content;
+  display: inline-block;
+  color: white;
+  background-color: grey;
+  padding-left: 2rem; /* Left(0.75) and Right(1.25) Padding */
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.4rem; /* rounded buttons */
+  cursor: pointer;
+  font-size: 1rem;
+}
+.ncbtn:hover
+{
+  cursor: not-allowed;
+}

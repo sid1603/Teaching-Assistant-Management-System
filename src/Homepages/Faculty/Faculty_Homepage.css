@@ -1,0 +1,83 @@
+header
+{
+    height: 20%;
+    background-color: black;
+    color:white
+}
+
+body
+{
+    background-image: url('../Assets/BITS_NAB_Blurred.jpg');
+    background-size: cover;
+    background-repeat: none;
+    overflow-x: hidden;
+    
+
+}
+
+h1,h2,p
+{
+    color: var(--bits_dark_blue);
+
+}
+p
+{
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.lander
+{
+    border-radius : 1rem;
+    padding: 2rem;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.TA_card, .big_TA_card
+{
+    width: 25%;
+    display: flex;
+    height: max-content;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid var(--bits_dark_blue);
+    border-radius : 1rem;
+    padding: 1rem;
+}
+
+.big_TA_card
+{
+    width: 38%;
+
+}
+
+.TA_card:hover
+{
+    border: 1px solid var(--bits_light_blue);
+    cursor: pointer;
+}
+
+.courses
+{
+    margin : 2%;
+    flex:1;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 33.5%;
+    grid-template-columns: repeat(4,22.5%);
+    grid-gap: 2.3%;
+    
+}
+
+.Course_details
+{
+    text-align: left;
+}

@@ -1,0 +1,60 @@
+/* Importing URL for selected fonts :- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); 
+
+
+/* GENERAL PROPERTIES :- */
+*
+{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+:root /* CSS variables that can be used throughout the project */
+{
+   /* CSS Variables :- (Format : '--<variable_name>') */
+  --bg_color : white; 
+  --neon_blue : #1589FF;
+  --bits_red : #CF2027;
+  --bits_light_blue : #5CCAE8;
+  --bits_yellow : #FFE275;
+  --bits_brown : #B78A2D;
+  --bits_dark_blue: #2B2B88;
+  /* Device Dependent Container Width (Responsiveness) */
+  --container_width_large : 75%;
+  --container_width_medium : 86%;
+  --container_width_small : 90%;
+
+  /* Transition Properties */
+  --transition: all 400ms ease;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  /* font */
+  font-family: 'Poppins', sans-serif;
+  /* Using bg_color variable as background. Format for calling css variable : 'var(--<variable_name>)' */
+  background : var(--bg_color); 
+  color : var(--white);
+  line-height: 2;
+}
+
+
+
+/* ----GENERAL STYLES---- */
+
+.container
+{
+  width: var(--container_width_large);
+  margin : 0 auto; /* Placing conatiner in the middle */
+}

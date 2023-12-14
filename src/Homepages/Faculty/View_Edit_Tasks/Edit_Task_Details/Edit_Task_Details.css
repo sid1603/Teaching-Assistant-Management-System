@@ -1,0 +1,86 @@
+.request_container
+{
+    height: max-content;
+    background-color: white;
+    border: 1px solid var(--bits_dark_blue);
+    border-radius : 1rem;
+    padding: 0.6rem;
+    margin-bottom: 2rem;
+}
+.request_container:hover
+{
+    border: 1px solid var(--bits_light_blue);
+}
+
+.not_started
+{
+    color: red;
+}
+
+.in_progress
+{
+    color: blue;
+}
+
+.complete
+{
+    color: green
+}
+
+.ncbtn
+{
+  width: max-content;
+  display: inline-block;
+  color: white;
+  background-color: grey;
+  padding-left: 2rem; /* Left(0.75) and Right(1.25) Padding */
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.4rem; /* rounded buttons */
+  cursor: pointer;
+  font-size: 1rem;
+}
+.ncbtn:hover
+{
+  cursor: not-allowed;
+}
+
+.details_input_card, .details_input_card_large
+{
+    width: 15%;
+    font-weight: 450;
+    font-size: medium;
+    border-radius: 1rem;
+    padding: 0.5%;
+    padding-left: 1%;
+    border: 1px solid black;
+}
+
+.details_input_card_large
+{
+    padding-top: 1%;
+    border-radius: 1rem;
+    width: 50%;
+}
+
+.details_input_card:hover
+{
+    border: 1px solid var(--neon_blue);
+
+}
+
+.task_details_input
+{
+    width: 50%;
+    font-weight: 450;
+    font-size: medium;
+    border-radius: 2rem;
+    padding: 0.75%;
+    padding-left: 1.5%;
+    border: 1px solid black;
+}
+.h2,.h3
+{
+    color: #2b2b88;
+}

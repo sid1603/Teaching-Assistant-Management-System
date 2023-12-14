@@ -1,0 +1,20 @@
+.Task_card
+{
+    width: 25%;
+    display: flex;
+    height: max-content;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid var(--bits_dark_blue);
+    border-radius : 1rem;
+    padding: 1rem;
+}
+
+
+.Task_card:hover
+{
+    border: 1px solid var(--bits_light_blue);
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.task_details
+{
+    width: 95%;
+    text-align: left;
+}
+
+.SuccessMsg
+{
+    color:green;
+}
+
+.ErrorMsg
+{
+    color: red;
+}
